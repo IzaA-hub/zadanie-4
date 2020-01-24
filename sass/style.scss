@@ -1,6 +1,7 @@
 *, *::before, *::after {
         box-sizing: border-box;
 }
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -11,20 +12,20 @@
     width: 95%;
     flex-wrap:wrap;
     justify-content:space-between;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
-.wrapper1{
+.wrapper1 {
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between;
+    justify-content:space-between;    
     }
-.box{
+.box {
     flex: 0 0 33.333%;
     position: relative;
 }
-.box-image{
-    display:flex;
-    object-fit: cover;
+.box-image {
+    display:flex;    
+    object-fit:cover;
     flex-direction:row-reverse;
     position: relative;
     min-height: 300px;
@@ -34,7 +35,7 @@
     flex-direction:column;
     }
 .skill-description h3 p {
-    text-align:center;
+    text-align:center; 
     justify-content:flex-end;
     align-items:flex-end;
 }
@@ -49,17 +50,17 @@
     font-family: "Roboto Slab";
     font-size: 14px;
     font-weight: 400;
-    letter-spacing: -0.35px;
-    margin:10px;text-align:center;
+    letter-spacing: -0.35px;   
+    margin:10px;
+    text-align:center;
 }
-.image{
+.image {
     display:flex;
     flex-wrap:wrap;
     object-fit:cover;
-    //margin-bottom:96px;
     height:300px;
     align-items:flex-start;
-    }
+}
 .image img {
     width: 100%;
     height: 100%;
@@ -84,13 +85,13 @@ body {
     margin:0 auto;
 }
 section {
-    padding:96px 0;
+    padding:96px 0;   
 }
 .btn {
     width: 240px;
     height: 65px;
-    background-color: #fed136;
-    display: inline-block;
+    //background-color: #fed136;
+    display: inline-block;   
     min-width: 160px;
     margin: 24px auto 0 auto;
     padding: 16px;
@@ -109,20 +110,16 @@ section {
     align-items:flex-end;
 }
 .title {
-   /* font-size: 48px;
-    margin: 0 0 12px 0;
-    z-index:0;
-    color: #222222;*/
+    color: #222222;
     font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
     line-height: 75px;
     text-transform: uppercase;
-    /* Text style for "S, ervices" */
     letter-spacing: -1px;
     display:flex;
     justify-content:center;
-    }
+}
 h3 {
     color: #333333;
     font-family:Montserrat;
@@ -132,21 +129,12 @@ h3 {
     display:flex;
     justify-content:center;
 }
-.number {
-    /* Style for "Icon-Baske" */
-    width: 40px;
-    height: 39px;
-    background-color: #fed136;
-    /* Style for "Circle-1" */
-    width: 68px;
-    height: 67px;
+.number {    
     border: 3px solid #fed136;
-    background-color: #ffffff;
-    /* Style for "Icon-Baske" */
     width: 40px;
     height: 39px;
     background-color: #fed136;
-    }
+}    
 p {
     color: #737373;
     font-family: "Droid Serif";
@@ -155,7 +143,7 @@ p {
     display:flex;
     justify-content:center;
     margin-bottom:96px;
-
+    
 }
 h4 {
     color: #737373;
@@ -167,21 +155,21 @@ h4 {
 }
 .navigation {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     padding: 12px 0;
 }
 .navigation ul {
-    padding: 0;
+    padding: 0;   
     margin: 0;
     list-style-type: none;
 }
 .navigation ul li {
-    display: inline-block;
+    display: inline-block;   
     margin: 0 0 0 36px;
     position: relative;
 }
 .navigation a {
-    text-decoration: none;
+    text-decoration: none;   
     color: #fff;
 }
 .navigation a:hover {
@@ -196,11 +184,11 @@ h4 {
     padding-top: 12px;
 }
 .navigation ul ul li{
-    display: block;
+    display: block; 
     margin: 0 0 12px 0;
 }
 .navigation li:hover ul {
-    display: block;
+    display: block;   
 }
 .navigation ul ul li a {
     color: #0097e6;
@@ -208,7 +196,7 @@ h4 {
     padding: 0 24px;
 }
 .navigation ul ul li:hover a {
-    color: #33d9b2;
+    color: #33d9b2; 
 }
 .splash {
     background-image:url('https://i.postimg.cc/GtQGqDyp/Background-Image.png');
@@ -217,7 +205,7 @@ h4 {
     display: flex;
 }
 .splash-inner {
-    margin: 0  auto;
+    margin: 0  auto;  
     max-width: 70%;
 }
 .page-title {
@@ -227,11 +215,11 @@ h4 {
     font-style: italic;
     letter-spacing: -1px;
     display:flex;
-    justify-content:center;
+    justify-content:center;   
 }
 .title {
-    font-size: 48px;
-    margin: 0 0 12px 0;
+    font-size: 48px;   
+    margin: 0 0 12px 0;   
 }
 .page-title span {
     font-family: 'Signika';
@@ -245,43 +233,42 @@ h4 {
     text-transform: uppercase;
     letter-spacing: -1.88px;
 }
-.btn-one {
+.btn-one {   
     width: 240px;
     position:center;
     height: 65px;
     background-color: #fed136;
-   color: #ffffff;
-   color: #ffffff;
+    color: #ffffff;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .contact {
-    background:  #0097e6;
+    background:  #0097e6; 
 }
 .contact .title {
-    color: white;
+    color: white;   
 }
 form {
-    flex: 2 0 0;
+    flex: 2 0 0;   
     padding-right: 96px;
 }
 form input {
-    border: none;
+    border: none;   
     border-bottom: 2px solid white;
     background: inherit;
     width: 100%;
     padding: 10px;
 }
 input::placeholder {
-    color: white;
+    color: white;   
 }
 textarea::placeholder {
-    color: white;
+    color: white;   
 }
 form textarea {
-    background: inherit;
+    background: inherit;   
     border: none;
     width: 100%;
     height: 150px;
@@ -289,28 +276,28 @@ form textarea {
     padding: 10px;
 }
 .contact-details {
-    flex: 1 0 0;
+    flex: 1 0 0;   
     color: white;
     padding: 0;
     margin: 0;
 }
 .contact-details h5 {
-    font-size: 20px;
+    font-size: 20px; 
     margin: 0;
 }
-.visually-hidden {
+.visually-hidden { 
     position: absolute !important;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    clip: rect(1px 1px 1px 1px);
-    clip: rect(1px, 1px, 1px, 1px);
+    height:1px; 
+    width:1px;
+    overflow:hidden;
+    clip:rect(1px 1px 1px 1px);
+    clip:rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
 }
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .page-footer {
     height:55px;
@@ -322,24 +309,30 @@ footer {
     font-weight: 400;
     line-height: 22px;
     letter-spacing: -0.35px;
-    }
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+.page-footer p {
+    margin-bottom:0;   
+}
 footer ul {
-    display: flex;
-    justify-content: center;
+    display: flex;   
+    justify-content:center;
     text-align:center;
 }
 footer ul li {
     display: flex;
-    font-size: 0;
+    font-size: 0; 
     height: 60px;
     width: 60px;
     background-color: black;
     border-radius: 50%;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin: 10px;
 }
 footer ul li i {
     color: white;
-    font-size: 30px;
+    font-size: 30px;  
 }

@@ -125,7 +125,6 @@ section {
 .btn {
   width: 240px;
   height: 65px;
-  background-color: #fed136;
   display: inline-block;
   min-width: 160px;
   margin: 24px auto 0 auto;
@@ -149,16 +148,12 @@ section {
 }
 
 .title {
-  /* font-size: 48px;
-    margin: 0 0 12px 0;
-    z-index:0;
-    color: #222222;*/
+  color: #222222;
   font-family: Montserrat;
   font-size: 40px;
   font-weight: 700;
   line-height: 75px;
   text-transform: uppercase;
-  /* Text style for "S, ervices" */
   letter-spacing: -1px;
   display: -ms-flexbox;
   display: flex;
@@ -179,16 +174,7 @@ h3 {
 }
 
 .number {
-  /* Style for "Icon-Baske" */
-  width: 40px;
-  height: 39px;
-  background-color: #fed136;
-  /* Style for "Circle-1" */
-  width: 68px;
-  height: 67px;
   border: 3px solid #fed136;
-  background-color: #ffffff;
-  /* Style for "Icon-Baske" */
   width: 40px;
   height: 39px;
   background-color: #fed136;
@@ -324,7 +310,6 @@ h4 {
   height: 65px;
   background-color: #fed136;
   color: #ffffff;
-  color: #ffffff;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
@@ -420,6 +405,16 @@ footer {
   font-weight: 400;
   line-height: 22px;
   letter-spacing: -0.35px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.page-footer p {
+  margin-bottom: 0;
 }
 
 footer ul {
